@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #00000000;
+    background-image: url(paineltudotutorial.jpg);
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.chat-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 500px;
+    height: 170px;
+    background-color: #fff;
+}
+
+.chat-history {
+    padding: 10px;
+    flex-grow: 1;
+    height: 650px;
+    overflow-y: auto;
+   
+    
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    
+
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#send-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.introdution-container{
+
+    display:flex ;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 700px;
+    height: 200px;
+    background-color: #ffffff;
+    
+
+}
+
+.notifican-container{
+
+    color: rgb(0, 17, 255) ;
+    text-shadow: 2px 2px #9bdaff;
+}
